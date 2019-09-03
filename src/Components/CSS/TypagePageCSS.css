@@ -1,0 +1,63 @@
+.button {
+    background-color: white;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 14px 40px;
+    margin: 5%;
+  }
+  hr{
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+  }
+  /*******Tab css ******/
+  .tab {
+    overflow: hidden;
+    background-color: #fffdfd;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tablinks {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(218, 215, 215);
+    color: rgb(127, 127, 252);
+  }
+  
+  /* Change background color of buttons on hover */
+  button:hover {
+    background-color: #ddd;
+  }
+  .activelink{
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-top: 1px solid rgb(218, 215, 215);
+    border-left: 1px solid rgb(218, 215, 215);
+    border-right: 1px solid rgb(218, 215, 215);
+    color: rgb(152, 152, 153);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    padding: 6px 12px;
+    border-top: none;
+    display: none;
+  }
+  .activetab{
+    padding: 6px 12px;
+    border-top: none;
+    display: block;
+  }

@@ -1,0 +1,14 @@
+.pagearrg{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+  }
+  .partone{
+    width: 30%;
+  }
+  .partwo{
+    width: 60%;
+    
+  }

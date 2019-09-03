@@ -1,0 +1,35 @@
+button{
+    font-size: 10px;
+    background-color: white;
+    border: none;
+
+}
+.SynonymeBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dropdown-btnsyn {
+    padding: 16px 10px 10px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+.dropdown-btnsyn:hover {
+    background-color: rgb(253, 253, 253);
+   
+  }
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-containersyn {
+    display: none;
+    padding-left: 20px;
+    color: #818181;
+  }
